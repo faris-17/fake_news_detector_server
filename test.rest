@@ -1,0 +1,12 @@
+POST http://127.0.0.1:8000/api/sendnews HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Omicron looks less severe, but should not be taken lightly: Experts",
+    "source": "Times Of India"
+}
+
+
+###
+
+GET http://127.0.0.1:8000/api/predictednews HTTP/1.1
